@@ -1,0 +1,33 @@
+
+body {
+	background:  #ffe6f2;
+}
+
+.w3-image {
+    position: -webkit-sticky;
+	position:sticky;
+	top: 250px;
+	float: right;
+    animation: flash linear 2s;
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    30% { opacity: 0.1; }
+    100% { opacity: 1; } 
+}
+
+.flash {
+    position: -webkit-sticky;
+	position:sticky;
+	top: 250px;
+	float: right;
+    animation: flash linear 2s;
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    30% { opacity: 0.1; }
+    100% { opacity: 1; }
+
+} 
