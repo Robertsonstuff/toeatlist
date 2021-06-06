@@ -23,7 +23,7 @@ body {
     float: right;
     animation: flash linear 2s;
     z-index: -1;
-    position:relative;
+    position: sticky;
 }
 
 @keyframes flash {
