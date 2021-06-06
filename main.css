@@ -17,18 +17,16 @@ body {
 }
 
 .donut {
-    animation: stretch 5s infinite;
+    animation: stretch 10s infinite;
+    float: centre;
 }
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
-  }
-  50% {
-    transform: scale(0.7);
+    transform: scale(.1);
   }
   100% {
-    transform: scale(1.5);
+    transform: scale(3.0);
   }
 }
 
