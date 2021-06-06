@@ -32,7 +32,7 @@ body {
     transform: scale(.1);
   }
   100% {
-    transform: scale(3.0);
+    transform: scale(6.0);
   }
 }
 
