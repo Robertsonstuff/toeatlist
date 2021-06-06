@@ -19,11 +19,10 @@ body {
 .flash {
     position: -webkit-sticky;
     top: 100px;
+    Left: 120px;
     float: right;
     animation: flash linear 2s;
     z-index: 2;
-    position: relative;
-    left: 70px;
     position: sticky;
 }
 
