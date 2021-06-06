@@ -5,9 +5,9 @@ body {
 
 .w3-image {
     position: -webkit-sticky;
+    
     float: centre;
     animation: flash linear 2s;
-    position:relative;
 }
 
 @keyframes flash {
@@ -23,6 +23,7 @@ body {
     animation: flash linear 2s;
     z-index: -1;
     position: sticky;
+    relative:relative;
 }
 
 @keyframes flash {
