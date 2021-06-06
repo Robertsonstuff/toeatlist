@@ -17,6 +17,7 @@ body {
 }
 
 .donut {
+    Top: 200px;
     height: 100%;
     animation: stretch 10s infinite;
     display: flex;
