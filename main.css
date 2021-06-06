@@ -16,7 +16,7 @@ body {
     100% { opacity: 1; } 
 }
 
-.flash {
+.donut {
     animation-name: stretch;
     animation-duration: 1.5s; 
     animation-timing-function: ease-out; 
@@ -40,13 +40,4 @@ body {
     transform: scale(1.5);
   }
 }
-body,
-html {
-  height: 100%;
-}
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
