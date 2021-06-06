@@ -17,8 +17,11 @@ body {
 }
 
 .donut {
+    height: 100%;
     animation: stretch 10s infinite;
-    float: centre;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes stretch {
