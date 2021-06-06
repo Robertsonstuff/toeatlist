@@ -8,8 +8,7 @@ body {
     top: 200px;
     float: right;
     animation: flash linear 2s;
-    z-index: -1;
-    position:relative;
+    position:sticky;
 }
 
 @keyframes flash {
@@ -20,10 +19,11 @@ body {
 
 .flash {
     position: -webkit-sticky;
-	position:sticky;
-	top: 100px;
-	float: right;
+    top: 200px;
+    float: right;
     animation: flash linear 2s;
+    z-index: -1;
+    position:relative;
 }
 
 @keyframes flash {
