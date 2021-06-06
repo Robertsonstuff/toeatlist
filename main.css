@@ -23,6 +23,8 @@ body {
     animation: flash linear 2s;
     z-index: 2;
     position: sticky;
+    Position: relative;
+    left: 70px;
 }
 
 @keyframes flash {
