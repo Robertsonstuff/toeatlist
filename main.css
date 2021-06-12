@@ -10,7 +10,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%; /*half the container width*/
-    margin-left: -75px;
+    margin-left: -305px;
     animation: flash linear 2s;
 }
 
