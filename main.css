@@ -22,7 +22,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%; /*half the container width*/
-    margin-left: -250px;
+    margin-left: -25px;
 }
 
 @keyframes stretch {
