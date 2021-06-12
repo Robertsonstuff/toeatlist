@@ -6,7 +6,11 @@ body {
 .w3-image {
     position: -webkit-sticky;
     z-index: 1;
-    float: centre;
+    animation: stretch 7s infinite;
+    position: absolute;
+    bottom: 0;
+    left: 50%; /*half the container width*/
+    margin-left: -25px;
     animation: flash linear 2s;
 }
 
