@@ -3,7 +3,7 @@ body {
 	background:  #ffe6f2;
 }
 
-.w3-image {
+.toeatlist {
     position: -webkit-sticky;
     z-index: 1;
     animation: stretch 7s infinite;
