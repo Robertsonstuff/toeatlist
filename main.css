@@ -5,7 +5,7 @@ body {
 
 .toeatlist {
     position: -webkit-sticky;
-    z-index: 2;
+    z-index: 1;
     animation: stretch 7s infinite;
     position: absolute;
     bottom: 0;
