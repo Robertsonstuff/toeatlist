@@ -1,0 +1,46 @@
+*
+{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+}
+body {
+	background:  #fa98db;
+}
+
+.toeatlist {
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 37%; /*half the container width*/
+}
+
+
+.donut {
+  z-index: 2;
+  animation: stretch 7s infinite;
+  position: absolute;
+  bottom: 0;
+  left: 37%; /*half the container width*/
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.1);
+    opacity: 1;  
+  }
+  100% {
+    transform: scale(10.0);
+    Opacity:0.2;
+  }
+}
+
+.w3-top {
+  background: white;
+}
+
+.Enter {
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 45%; /*half the container width*/
+}
