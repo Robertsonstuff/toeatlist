@@ -23,8 +23,10 @@ body {
   z-index: 2;
   animation: stretch 7s infinite;
   position: absolute;
-  bottom: 0;
-  left: 37%; /*half the container width*/
+/*  bottom: 0;
+  left: 37%; half the container width*/
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @keyframes stretch {
