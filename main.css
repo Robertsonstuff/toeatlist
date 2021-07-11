@@ -21,7 +21,7 @@ body {
 }
 
 .donut {
-  z-index: 1;
+  z-index: 3;
   animation: stretch 7s infinite;
   position: absolute;
 /*  bottom: 0;
