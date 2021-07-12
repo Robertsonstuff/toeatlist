@@ -21,7 +21,7 @@ body {
 }
 
 .donut {
-  z-index: 3;
+  z-index: 1;
   animation: stretch 7s infinite;
 /*  bottom: 0;
   left: 37%; half the container width*/
@@ -48,7 +48,7 @@ body {
 }
 
 .Enter {
-  z-index: 2;
+  z-index: 3;
 /*  bottom: 0;
   left: 45%; half the container width*/
   left: 50%;
