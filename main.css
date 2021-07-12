@@ -15,7 +15,6 @@ body {
 
 
   z-index: 2;
-  position: absolute;
   top: 50%;
   transform: translate(-50%,-50%);
 }
@@ -23,7 +22,6 @@ body {
 .donut {
   z-index: 3;
   animation: stretch 7s infinite;
-  position: absolute;
 /*  bottom: 0;
   left: 37%; half the container width*/
   top: 50%;
@@ -47,7 +45,6 @@ body {
 
 .Enter {
   z-index: 2;
-  position: absolute;
 /*  bottom: 0;
   left: 45%; half the container width*/
   top: 50%;
