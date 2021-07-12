@@ -26,7 +26,7 @@ body {
 /*  bottom: 0;
   left: 37%; half the container width*/
   position: absolute;
-  left: 50%;
+  left: -1%;
   top: 50%;
   transform: translate(-50%,-50%);
 }
