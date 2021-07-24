@@ -8,16 +8,18 @@ body {
 }
 
 .toeatlist {
-/*  z-index: 3;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;/*
   position: absolute;
   bottom: 0;
-  left: 37%; half the container width*/
-
+  left: 37%; half the container width
   position: absolute;
   z-index: 2;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);*/
 }
 
 .donut {
@@ -50,10 +52,13 @@ body {
 
 .Enter {
   z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 /*  bottom: 0;
-  left: 45%; half the container width*/
+  left: 45%; half the container width
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);*/
 }
 
