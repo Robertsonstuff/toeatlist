@@ -24,9 +24,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*z-index: 1;
+  z-index: 1;
   animation: stretch 7s infinite;
-  position: absolute;
+  /*position: absolute;
   left: -1%;
   top: 50%;
   transform: translate(-50%,-50%);*/
