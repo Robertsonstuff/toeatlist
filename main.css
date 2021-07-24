@@ -23,11 +23,10 @@ body {
 }
 
 .donut {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
+  z-index: 0;
   animation: stretch 7s infinite;
+  display: grid;
+  place-items: center;
   /*position: absolute;
   left: -1%;
   top: 50%;
