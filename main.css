@@ -9,7 +9,7 @@ body {
 
 .toeatlist {
   z-index: 2;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;/*
   position: absolute;
@@ -23,7 +23,7 @@ body {
 }
 
 .donut {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   z-index: 1;
@@ -52,7 +52,7 @@ body {
 
 .Enter {
   z-index: 3;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 /*  bottom: 0;
