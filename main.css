@@ -12,7 +12,7 @@ body {
   width: 80%;
 }
 
-.donut, grid-content {
+.donut, .grid-content {
   grid-row 1 / 2;
 }
 
