@@ -6,25 +6,14 @@ font-size: 20px;
 body {
 	background:  #fa98db;
 }
-.grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: 80%;
-}
 
-.donut, .grid-content {
-  grid-row: 1 / 2;
-}
-
-.grid-content {
-  grid-column: 2 / -1;
-}
 
 .donut {
   z-index: 1;
   animation: stretch 7s infinite;
   display: grid;
   place-items: center;
+  object-fit: cover;
   /*position: absolute;
   left: -1%;
   top: 50%;
