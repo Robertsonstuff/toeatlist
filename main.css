@@ -13,7 +13,7 @@ body {
 }
 
 .donut, .grid-content {
-  grid-row 1 / 2;
+  grid-row: 1 / 2;
 }
 
 .grid-content {
