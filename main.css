@@ -12,8 +12,8 @@ body {
   z-index: 3;
   animation: stretch 7s infinite;
   position: absolute;
-  left: -1%;
-  top: 50%;
+  left: 0;
+  top: 0;
   transform: translate(-50%,-50%);
 }
 
