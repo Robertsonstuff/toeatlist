@@ -11,12 +11,10 @@ body {
 .donut {
   z-index: 3;
   animation: stretch 7s infinite;
-  display: grid;
-  place-items: center;
   position: absolute;
- /* left: -1%;
+  left: -1%;
   top: 50%;
-  transform: translate(-50%,-50%);*/
+  transform: translate(-50%,-50%);
 }
 
 @keyframes stretch {
