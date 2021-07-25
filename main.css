@@ -6,9 +6,15 @@ font-size: 20px;
 body {
 	background:  #fa98db;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+	
+}
 
 .toeatlist {
-  z-index: 2;
+  z-index: 1;
   display: grid;
   place-items: center;/*
   position: absolute;
