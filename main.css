@@ -10,8 +10,7 @@ body {
 .toeatlist {
   z-index: 2;
   display: grid;
-  justify-content: center;
-  align-items: center;/*
+  place-items: center;*
   position: absolute;
   bottom: 0;
   left: 37%; half the container width
@@ -52,8 +51,7 @@ body {
 .Enter {
   z-index: 3;
   display: grid;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
 /*  bottom: 0;
   left: 45%; half the container width
   left: 50%;
