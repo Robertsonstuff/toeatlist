@@ -5,7 +5,6 @@ font-size: 20px;
 }
 body {
   background-image: linear-gradient(to right, #fa98db, white);
-  box-shadow: 5px rgb(0,0,0,0.2);
 }
 
 .w3-top {
