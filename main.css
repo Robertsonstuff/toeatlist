@@ -2,9 +2,7 @@
 {
 font-family: 'Josefin Sans', sans-serif;
 font-size: 20px;
-}
-body {
-	background-image: linear-gradient(to bottom, #fa98db, white);
+background-image: linear-gradient(to bottom, #fa98db, white);
 }
 
 /*
