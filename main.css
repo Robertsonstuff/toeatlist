@@ -12,6 +12,14 @@ body {
   position: relative;
 }
 
+.Enter {
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  position: relative;
+
+}
+
 .toeatlist {
   z-index: 5;
   display: grid;
@@ -31,11 +39,5 @@ body {
     to   { transform: translate(0, -0px); }    
 }
 }
-.Enter {
-  z-index: 5;
-  display: grid;
-  place-items: center;
-  position: relative;
 
-}
 
