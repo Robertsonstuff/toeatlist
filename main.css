@@ -18,7 +18,8 @@ body {
   display: grid;
   place-items: center;
   position: relative;
-  box-shadow: 5px rgb(0,0,0,0.2);
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(5px 5px 5px #666666);
   animation-name: floating;
   animation-duration: 2s;
   animation-iteration-count: infinite;
