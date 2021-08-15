@@ -7,27 +7,6 @@ body {
   background-image: linear-gradient(to right, #fa98db, white);
 }
 
-/*
-.donut {
-  z-index: 0;
-  animation: stretch 7s infinite;
-  position: absolute;
-  left: 25%;
-  top: 0;
-  transform: translate(-50%,-50%);
-}
-
-@keyframes stretch {
-  0% {
-    transform: scale(.1);
-    opacity: 1;  
-  }
-  100% {
-    transform: scale(10.0);
-    Opacity:0.2;
-  }
-}
-*/
 .w3-top {
   background: white;
   position: relative;
@@ -37,14 +16,8 @@ body {
   z-index: 5;
   display: grid;
   place-items: center;
-  position: relative;/*
-  bottom: 0;
-  left: 37%; half the container width
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);*/  
+  position: relative;
+  box-shadow: 5px rgb(0,0,0,0.2);
   animation-name: floating;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -62,10 +35,6 @@ body {
   display: grid;
   place-items: center;
   position: relative;
-/*  bottom: 0;
-  left: 45%; half the container width
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);*/
+
 }
 
