@@ -13,7 +13,6 @@ body {
 }
 
 .Enter {
-  z-index: 5;
   display: grid;
   place-items: center;
   position: relative;
@@ -21,7 +20,6 @@ body {
 }
 
 .toeatlist {
-  z-index: 5;
   display: grid;
   place-items: center;
   position: relative;
