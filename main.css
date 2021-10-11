@@ -35,6 +35,16 @@ body {
   animation-timing-function: ease-in-out;
 }
 
+@-webkit-keyframes bounce {
+  from {
+    bottom: 20px;
+  }
+
+  to {
+    bottom: 100%;
+  }
+}
+
 @keyframes bounce {
   from {
     bottom: 20px;
