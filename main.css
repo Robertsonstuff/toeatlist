@@ -74,7 +74,7 @@ body {
 
   to {
     bottom: -15px;
-    margin-left: -50px;
+    margin-left: 0px;
     height: 80px;
     opacity: 0.4;
     width: 300px;
@@ -91,7 +91,7 @@ body {
 
   to {
     bottom: 20px;
-    margin-left: 100px;
+    margin-left: 0;
     height: 10px;
     width: 15px;
   }
