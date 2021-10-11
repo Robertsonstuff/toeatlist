@@ -29,7 +29,7 @@ body {
 .toeatlist {
   -webkit-filter: drop-shadow(4px 6px rgba(0,0,0,0.2));
   filter: drop-shadow(4px 6px rgba(0,0,0,0.2));
-  animation-name: bouce;
+  animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
