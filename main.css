@@ -64,11 +64,11 @@ body {
 }
 
 .bouncey .shadow {
-  -webkit-animation-direction: alternate;
+  -webkit-animation-direction: alternate-reverse;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: grow;
   -webkit-animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: alternate-reverse;
   animation-duration: 1s;
   animation-name: grow;
   animation-iteration-count: infinite;
