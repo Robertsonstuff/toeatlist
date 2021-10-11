@@ -29,11 +29,14 @@ body {
 .toeatlist {
   -webkit-filter: drop-shadow(4px 6px rgba(0,0,0,0.2));
   filter: drop-shadow(4px 6px rgba(0,0,0,0.2));
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: bounce;
+  -webkit-animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
   animation-name: bounce;
-  animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
 }
 
 @-webkit-keyframes bounce {
@@ -99,18 +102,17 @@ body {
 
 @keyframes grow {
   from {
-    bottom: 20px;
-    margin-left: 0;
-    height: 10px;
-    width: 15px;
-
-  }
-
-  to {
     bottom: 0;
     margin-left: 0;
     height: 50px;
     width: 200px;
+  }
+
+  to {
+    bottom: 20px;
+    margin-left: 0;
+    height: 10px;
+    width: 15px;
   }
 }
 
