@@ -5,6 +5,11 @@ font-size: 20px;
 }
 body {
   background-image: linear-gradient(to right, #fa98db, white);
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
@@ -14,17 +19,16 @@ body {
 }
 
 .bouncey {
-  height: 50%;
-  left: 50%;
-  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .toeatlist {
-  display: flex;
-  place-items: center;
-  align-items: center;
-  position: relative;
   -webkit-filter: drop-shadow(4px 6px rgba(0,0,0,0.2));
   filter: drop-shadow(4px 6px rgba(0,0,0,0.2));
   animation-name: floating;
