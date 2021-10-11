@@ -64,7 +64,7 @@ body {
   background: radial-gradient(50% 50%, #000 0%, #fff 100%);
 }
 
-@-webkit-keyframes grow {
+@keyframes grow {
     from {
     bottom: 0;
     margin-left: 0;
@@ -80,7 +80,7 @@ body {
   }
 }
 
-@keyframes grow {
+@-webkit-keyframes grow  {
   from {
     bottom: 0;
     margin-left: 0;
