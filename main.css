@@ -15,7 +15,7 @@ body {
 
 .bouncey {
   height: 100%;
-  left: 50%;
+  left: 0;
   position: absolute;
 }
 
@@ -97,6 +97,7 @@ body {
 .Enter {
   display: grid;
   place-items: center;
+  justify-items: center;
   position: relative;
 
 }
