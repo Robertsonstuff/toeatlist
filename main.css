@@ -38,4 +38,50 @@ body {
 }
 }
 
+.shadow {
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: grow;
+  -webkit-animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-name: grow;
+  animation-iteration-count: infinite;
+  bottom: 0;
+  position: absolute;
+  margin-left: -100px;
+}
+@-webkit-keyframes grow {
+  from {
+    bottom: 0;
+    margin-left: -100px;
+    height: 50px;
+    opacity: 1;
+    width: 200px;
+  }
+
+  to {
+    bottom: -15px;
+    margin-left: -150px;
+    height: 80px;
+    opacity: 0.4;
+    width: 300px;
+  }
+}
+
+@keyframes grow {
+  from {
+    bottom: 0;
+    margin-left: -100px;
+    height: 50px;
+    width: 200px;
+  }
+
+  to {
+    bottom: 20px;
+    margin-left: 0;
+    height: 10px;
+    width: 15px;
+  }
+}
 
