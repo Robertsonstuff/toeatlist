@@ -82,7 +82,7 @@ body {
   }
 }
 
-@keyframes grow {
+/*@keyframes grow {
   from {
     bottom: 0;
     margin-left: -100px;
@@ -96,5 +96,5 @@ body {
     height: 10px;
     width: 15px;
   }
-}
+}*/
 
