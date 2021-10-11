@@ -59,9 +59,9 @@ body {
   animation-duration: 2s;
   animation-name: grow;
   animation-iteration-count: infinite;
-  display: grid;
-  place-items: center;
-  position: relative;
+  bottom: 0;
+  position: absolute;
+  margin-left: -100px;
 }
 
 @-webkit-keyframes grow {
