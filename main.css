@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle, white, #fabdb6 , pink);
+  background: radial-gradient(circle, white, white , pink);
 }
 
 
@@ -33,6 +33,7 @@ body {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  border: 1px solid black;
 }
 
 @keyframes floating {
