@@ -65,8 +65,7 @@ body {
 }
 
 @-webkit-keyframes grow {
-  @keyframes grow {
-  from {
+    from {
     bottom: 0;
     margin-left: 0;
     height: 50px;
@@ -80,6 +79,8 @@ body {
     width: 15px;
   }
 }
+
+@keyframes grow {
   from {
     bottom: 0;
     margin-left: 0;
@@ -96,8 +97,6 @@ body {
     width: 300px;
   }
 }
-
-
 
 .Enter {
   display: flex;
