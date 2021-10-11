@@ -47,9 +47,9 @@ body {
   animation-duration: 2s;
   animation-name: grow;
   animation-iteration-count: infinite;
-  bottom: 0;
-  position: absolute;
-  margin-left: -100px;
+  display: grid;
+  place-items: center;
+  position: relative;
 }
 @-webkit-keyframes grow {
   from {
