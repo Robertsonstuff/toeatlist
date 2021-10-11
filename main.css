@@ -5,18 +5,12 @@ font-size: 20px;
 }
 body {
   background-image: linear-gradient(to right, #fa98db, white);
+  z-index: -1;
 }
 
 .w3-top {
   background: white;
   position: relative;
-}
-
-.Enter {
-  display: grid;
-  place-items: center;
-  position: relative;
-
 }
 
 .bouncey {
@@ -69,7 +63,7 @@ body {
 @-webkit-keyframes grow {
   from {
     bottom: 0;
-    margin-left: -100px;
+    margin-left: 0;
     height: 50px;
     opacity: 1;
     width: 200px;
@@ -77,7 +71,7 @@ body {
 
   to {
     bottom: -15px;
-    margin-left: -150px;
+    margin-left: -50px;
     height: 80px;
     opacity: 0.4;
     width: 300px;
@@ -87,16 +81,22 @@ body {
 @keyframes grow {
   from {
     bottom: 0;
-    margin-left: -100px;
+    margin-left: 0;
     height: 50px;
     width: 200px;
   }
 
   to {
     bottom: 20px;
-    margin-left: 0;
+    margin-left: 100;
     height: 10px;
     width: 15px;
   }
 }
 
+.Enter {
+  display: grid;
+  place-items: center;
+  position: relative;
+
+}
