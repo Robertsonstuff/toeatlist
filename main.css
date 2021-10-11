@@ -4,7 +4,6 @@ font-family: 'Josefin Sans', sans-serif;
 font-size: 20px;
 }
 body {
-  background-image: linear-gradient(to right, #fa98db, white);
   position: absolute;
   top: 0;
   left: 0;
