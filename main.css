@@ -52,11 +52,11 @@ body {
 
 .bouncey .shadow {
   -webkit-animation-direction: alternate;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-name: grow;
   -webkit-animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-name: grow;
   animation-iteration-count: infinite;
   bottom: 0;
