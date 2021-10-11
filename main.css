@@ -6,7 +6,7 @@ font-size: 20px;
 body {
   background-image: linear-gradient(to right, #fa98db, white);
   height: 100%;
-  width: 30%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -101,8 +101,8 @@ body {
 
 .Enter {
   display: flex;
-  place-items: center;
+  flex-direction: column;
   align-items: center;
-  position: relative;
+  justify-content: center;
 
 }
