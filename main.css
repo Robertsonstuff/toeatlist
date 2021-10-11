@@ -52,11 +52,11 @@ body {
 
 .bouncey .shadow {
   -webkit-animation-direction: alternate;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-name: grow;
   -webkit-animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-name: grow;
   animation-iteration-count: infinite;
   bottom: 0;
@@ -64,38 +64,37 @@ body {
   background: radial-gradient(50% 50%, #000 0%, #fff 100%);
 }
 
-@keyframes grow {
+@-webkit-keyframes grow {
     from {
-    bottom: 20px;
-    margin-left: 0;
-    height: 10px;
-    width: 15px;
-
-  }
-
-  to {
     bottom: 0;
     margin-left: 0;
     height: 50px;
     width: 200px;
   }
-}
-
-@-webkit-keyframes grow  {
-  from {
-    bottom: -15px;
-    margin-left: 0px;
-    height: 80px;
-    opacity: 0.4;
-    width: 300px;
-  }
 
   to {
+    bottom: 20px;
+    margin-left: 0;
+    height: 10px;
+    width: 15px;
+  }
+}
+
+@keyframes grow {
+  from {
     bottom: 0;
     margin-left: 0;
     height: 50px;
     opacity: 1;
     width: 200px;
+  }
+
+  to {
+    bottom: -15px;
+    margin-left: 0px;
+    height: 80px;
+    opacity: 0.4;
+    width: 300px;
   }
 }
 
