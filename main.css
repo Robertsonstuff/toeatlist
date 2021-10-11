@@ -38,7 +38,7 @@ body {
 
 @-webkit-keyframes bounce {
   from {
-    bottom: 20px;
+    bottom: -20px;
   }
 
   to {
@@ -48,7 +48,7 @@ body {
 
 @keyframes bounce {
   from {
-    bottom: 20px;
+    bottom: -20px;
   }
 
   to {
