@@ -1,2 +1,3 @@
+Sitemap: https://toeatlist.org/toeatlist.xml
 User-agent: *
 Disallow:
